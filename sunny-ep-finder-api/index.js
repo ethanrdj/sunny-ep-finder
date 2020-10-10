@@ -2,7 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const PORT = 5000;
+const PORT = 3000;
+const episodeRouter = require("./routes/episode");
 
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -17,3 +18,7 @@ app.use(express.json());
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
+
+// routes
+
+app.use("/episode", episodeRouter);
