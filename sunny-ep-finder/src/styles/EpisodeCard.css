@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+.EpisodeCard button {
+  width: 30%;
+  font-family: "Acme", sans-serif;
+  font-size: 1.1em;
+  background-color: #f3d111;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.EpisodeCard label {
+  margin-left: 5%;
+  font-family: "Acme", sans-serif;
+}
+
+.EpisodeCard select {
+  margin-left: 1%;
+  width: 12%;
+  border-radius: 5px;
+  font-family: "Acme", sans-serif;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 2%;
+  font-family: "Acme", sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: -10px;
+}
+
+.series-ep {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.dire-writ {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-top: -8%;
+}
+
+.writtenBy {
+  margin-left: 5%;
+}
+.date {
+  padding-left: 5%;
+}
+
+.description {
+  font-family: "Acme", sans-serif;
+}

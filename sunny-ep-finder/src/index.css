@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "sunny";
+  src: local("sunny"), url(../src/styles/fonts/Textile\ Regular.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
