@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Fira+Sans+Condensed:ital@1&display=swap");
 
 .EpisodeCard button {
-  width: 30%;
+  width: 45%;
   font-family: "Acme", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.4em;
   background-color: #f3d111;
   border-radius: 5%;
   border: none;
@@ -15,44 +16,68 @@
 .EpisodeCard label {
   margin-left: 5%;
   font-family: "Acme", sans-serif;
+  font-size: 1.4em;
 }
 
 .EpisodeCard select {
   margin-left: 1%;
-  width: 12%;
+  width: 15%;
+  padding: 1%;
+  font-size: 1.1em;
   border-radius: 5px;
   font-family: "Acme", sans-serif;
   cursor: pointer;
 }
 
 .result {
-  margin-top: 2%;
+  margin: 0 auto;
+  margin-top: 4%;
   font-family: "Acme", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 93%;
+  background-color: #dcdcdc;
+  border: 2px black solid;
+  border-radius: 5%;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title {
+  font-family: "sunny";
+  width: 90%;
+  padding: 3%;
   font-size: 1.5em;
-  margin-bottom: -10px;
+  margin-bottom: -6px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
 }
 
 .series-ep {
   display: inline-block;
+  margin-top: 3%;
   margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+.date {
+  margin-top: 0;
 }
 
 .dire-writ {
-  display: inline-block;
-  font-size: 0.8em;
+  font-size: 1em;
   margin-top: -8%;
+  padding: 4%;
 }
 
-.writtenBy {
-  margin-left: 5%;
-}
-.date {
-  padding-left: 5%;
+.directedBy {
+  margin-bottom: 0;
 }
 
 .description {
   font-family: "Acme", sans-serif;
+  width: 90%;
+  font-size: 1.5em;
+  margin-top: -4%;
 }

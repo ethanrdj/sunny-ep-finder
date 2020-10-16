@@ -1,16 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 .App {
   text-align: center;
   background-color: whitesmoke;
-  color: black;
   width: 85%;
-  height: 90vh;
+  height: auto;
   margin-top: 5%;
   margin-left: 7%;
   border-radius: 10px;
   border: 5px solid #f3d111;
+  font-family: "Acme";
 }
 
 .main-header {
   padding-top: 6%;
   font-family: "sunny";
+  color: black;
+}
+
+.mac {
+  width: 60%;
+  margin-top: 6%;
 }
