@@ -37,16 +37,16 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:series", async (req, res) => {
-  const { series } = req.body;
+router.get("/filtered", async (req, res) => {
+  const series = req.query.series;
 
+  const selectedSeries = await Episode.find({ series: series });
+  const randomSeriesEpisode = await selectedSeries[
+    Math.floor(Math.random() * selectedSeries.length)
+  ];
   try {
-    const selectedSeries = await Episode.find({ series: series });
-    const randomSeriesEpisode = await selectedSeries[
-      Math.floor(Math.random() * selectedSeries.length)
-    ];
     res.status(200).json(randomSeriesEpisode);
-  } catch (err) {
+  } catch {
     res.status(500).json({ message: err.message });
   }
 });

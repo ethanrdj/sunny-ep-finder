@@ -10,12 +10,17 @@ const EpisodeCard = ({
   directedBy,
   writtenBy,
   description,
+  handleRequest,
+  setFilteredSeries,
 }) => {
+  const handleChange = (event) => {
+    setFilteredSeries(event.target.value);
+  };
   return (
     <div className="EpisodeCard">
-      <button>IASIP</button>
+      <button onClick={() => handleRequest()}>IASIP</button>
       <label htmlFor="filter">Series:</label>
-      <select name="filter" id="filter">
+      <select name="filter" id="filter" onChange={handleChange}>
         <option>All</option>
         <option>1</option>
         <option>2</option>
