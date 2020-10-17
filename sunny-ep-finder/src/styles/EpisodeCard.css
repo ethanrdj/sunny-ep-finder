@@ -81,3 +81,25 @@
   font-size: 1.5em;
   margin-top: -4%;
 }
+
+@media (min-width: 750px) {
+  .dire-writ {
+    padding-bottom: 5%;
+  }
+
+  .directedBy {
+    padding-top: 6%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .directedBy {
+    padding-top: 7%;
+    padding-bottom: 4%;
+  }
+
+  .EpisodeCard {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

@@ -54,6 +54,8 @@ const App = () => {
       <img src={mac} alt="mac" className="mac"></img>
 
       <Quote />
+
+      <p className="me">The Gang Find an Episode © 2020 | Ethan Davis</p>
     </div>
   );
 };

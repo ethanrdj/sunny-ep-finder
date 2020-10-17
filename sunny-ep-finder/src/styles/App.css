@@ -22,3 +22,14 @@
   width: 60%;
   margin-top: 6%;
 }
+
+.me {
+  font-size: 0.6em;
+  padding-top: 5%;
+}
+
+@media (min-width: 450px) {
+  .main-header {
+    font-size: 2.8em;
+  }
+}
