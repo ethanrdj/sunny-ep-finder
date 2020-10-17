@@ -55,7 +55,7 @@ const App = () => {
 
       <Quote />
 
-      <p className="me">The Gang Find an Episode © 2020 | Ethan Davis</p>
+      <p className="me">The Gang Finds an Episode © 2020 | Ethan Davis</p>
     </div>
   );
 };
