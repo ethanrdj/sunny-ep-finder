@@ -5,6 +5,10 @@ const mongoose = require("mongoose");
 const PORT = 5000;
 const episodeRouter = require("./src/routes/episode");
 
+var cors = require("cors");
+
+app.use(cors());
+
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
