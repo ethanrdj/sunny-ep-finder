@@ -11,9 +11,7 @@ const Quote = () => {
   useEffect(() => {
     const fetchData = async () => {
       await axios
-        .get(
-          "https://cors-anywhere.herokuapp.com/http://sunnyquotes.net/q.php?random"
-        )
+        .get("https://sunnyquotes.net/q.php?random")
         .then(({ data }) => {
           setQuote(data.sqQuote);
           setWhoseQuote(data.sqWho);

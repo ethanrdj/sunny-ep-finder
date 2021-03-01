@@ -12,19 +12,16 @@ const App = () => {
   const handleRequest = async () => {
     if (filteredSeries === "All") {
       await axios
-        .get(
-          "https://cors-anywhere.herokuapp.com/https://sunny-ep-finder-api.herokuapp.com/episode/"
-        )
+        .get("https://sunny-ep-finder-api.herokuapp.com/episode/")
         .then(({ data }) => {
           setEpisode(data);
         })
         .catch((error) => console.log(error));
     } else {
       await axios
-        .get(
-          "https://cors-anywhere.herokuapp.com/https://sunny-ep-finder-api.herokuapp.com/episode/filtered/",
-          { params: { series: filteredSeries } }
-        )
+        .get("https://sunny-ep-finder-api.herokuapp.com/episode/filtered/", {
+          params: { series: filteredSeries },
+        })
         .then(({ data }) => {
           setEpisode(data);
         })

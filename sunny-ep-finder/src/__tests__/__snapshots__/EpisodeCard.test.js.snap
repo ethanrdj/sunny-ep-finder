@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeCard renders the correct props on the page 1`] = `
+<DocumentFragment>
+  <div
+    class="EpisodeCard"
+  >
+    <button
+      class="button-filter"
+    >
+      IASIP
+    </button>
+    <label
+      class="button-filter"
+      for="filter"
+    >
+      Series:
+    </label>
+    <select
+      class="button-filter"
+      id="filter"
+      name="filter"
+    >
+      <option>
+        All
+      </option>
+      <option>
+        1
+      </option>
+      <option>
+        2
+      </option>
+      <option>
+        3
+      </option>
+      <option>
+        4
+      </option>
+      <option>
+        5
+      </option>
+      <option>
+        6
+      </option>
+      <option>
+        7
+      </option>
+      <option>
+        8
+      </option>
+      <option>
+        9
+      </option>
+      <option>
+        10
+      </option>
+      <option>
+        11
+      </option>
+      <option>
+        12
+      </option>
+      <option>
+        13
+      </option>
+      <option>
+        14
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
