@@ -6,7 +6,7 @@
   width: 85%;
   height: auto;
   margin-top: 5%;
-  margin-left: 7%;
+  margin: 0 auto;
   border-radius: 10px;
   border: 5px solid #f3d111;
   font-family: "Acme";
@@ -31,5 +31,15 @@
 @media (min-width: 450px) {
   .main-header {
     font-size: 2.8em;
+  }
+}
+
+@media (min-width: 900px) {
+  .App {
+    width: 60%;
+  }
+
+  .mac {
+    width: 40%;
   }
 }

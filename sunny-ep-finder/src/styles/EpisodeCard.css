@@ -40,7 +40,6 @@
   background-color: #dcdcdc;
   border: 2px black solid;
   border-radius: 5%;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title {
@@ -92,14 +91,14 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   .directedBy {
     padding-top: 7%;
     padding-bottom: 4%;
   }
 
   .EpisodeCard {
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
   }
 }

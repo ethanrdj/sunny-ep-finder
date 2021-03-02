@@ -28,7 +28,7 @@ const Quote = () => {
     <div className="Quote">
       <p className="quote">{quote}</p>
       <p className="person">
-        -{whoseQuote}-&nbsp;{seriesAndEp}
+        &nbsp;&nbsp;&nbsp;{whoseQuote}&nbsp;{seriesAndEp}
       </p>
     </div>
   );
